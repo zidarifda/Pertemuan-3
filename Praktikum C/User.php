@@ -7,7 +7,7 @@ class User {
 }
 
 $u1 = new User();              //tanpa parameter
-$u2 = new User("Rani", 22);    //dua parameter
+$u2 = new User("Rani", 22);    // dua parameter
 
 echo $u1->name . "\n";
 echo $u2->name . "\n";
